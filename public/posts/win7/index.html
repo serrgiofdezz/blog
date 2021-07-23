@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang='en' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>Installing and Setting Up Windows 7 (2021 Edition) | The BBJProjeK Blog</title>
+
+<meta name="generator" content="Hugo Eureka 0.8.2" />
+<link rel="stylesheet" href="/css/eureka.min.css">
+<script defer src="/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
+     crossorigin></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js" 
+  integrity="sha256-Zmpaaj&#43;GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE="  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_2.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_2.png">
+
+<meta name="description"
+  content="In this med-long blog I will be setting up Windows 7 in 2021. Have you got tired of Windows 10? Follow me and get rid of that non-privacy OS with full of telemetry
+1. Downloading necessary files The first thing we need is to download the Windows 7 ISO file. To do it, I highly recommend Microsoft Windows and Office ISO Download Tool. With this tool we will be able to download any Windows Version, including Windows 7, 8.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Posts",
+      "item":"/posts/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"Installing and Setting Up Windows 7 (2021 Edition)",
+      "item":"/posts/win7/"}]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/posts/win7/"
+    },
+    "headline": "Installing and Setting Up Windows 7 (2021 Edition) | The BBJProjeK Blog","datePublished": "2021-01-01T10:30:48+08:00",
+    "dateModified": "2021-01-01T10:30:48+08:00",
+    "wordCount":  970 ,
+    "author": {
+        "@type": "Person",
+        "name": ["Sergio Fernández"]
+    },
+    "publisher": {
+        "@type": "Person",
+        "name": "C. Wang",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "/images/icon.png"
+        }
+        },
+    "description": "In this med-long blog I will be setting up Windows 7 in 2021. Have you got tired of Windows 10? Follow me and get rid of that non-privacy OS with full of telemetry\n1. Downloading necessary files The first thing we need is to download the Windows 7 ISO file. To do it, I highly recommend Microsoft Windows and Office ISO Download Tool. With this tool we will be able to download any Windows Version, including Windows 7, 8."
+}
+</script><meta property="og:title" content="Installing and Setting Up Windows 7 (2021 Edition) | The BBJProjeK Blog" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="/images/icon.png">
+
+
+<meta property="og:url" content="/posts/win7/" />
+
+
+
+
+<meta property="og:description" content="In this med-long blog I will be setting up Windows 7 in 2021. Have you got tired of Windows 10? Follow me and get rid of that non-privacy OS with full of telemetry
+1. Downloading necessary files The first thing we need is to download the Windows 7 ISO file. To do it, I highly recommend Microsoft Windows and Office ISO Download Tool. With this tool we will be able to download any Windows Version, including Windows 7, 8." />
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="The BBJProjeK Blog" />
+
+
+
+
+
+
+<meta property="article:published_time" content="2021-01-01T10:30:48&#43;08:00" />
+
+
+<meta property="article:modified_time" content="2021-01-01T10:30:48&#43;08:00" />
+
+
+
+<meta property="article:section" content="posts" />
+
+
+
+
+<body class="flex flex-col min-h-screen">
+  <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+    <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">The BBJProjeK Blog</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/#about" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">About</a>
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  mr-4">Posts</a>
+            <a href="/docs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">Docs</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+  </header>
+  <main class="flex-grow pt-16">
+    <div class="pl-scrollbar">
+      <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+
+
+<div class="grid grid-cols-2 lg:grid-cols-8 gap-4 lg:pt-12">
+    <div
+        class="col-span-2  lg:col-span-6 bg-secondary-bg rounded px-6 py-8">
+        <h1 class="font-bold text-3xl text-primary-text">Installing and Setting Up Windows 7 (2021 Edition)</h1>
+        <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-01-01</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>5 min read</span>
+    </div>
+    
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-folder mr-1"></i>
+        
+        <a href="/categories/windows/" class="hover:text-eureka">Windows</a>
+        
+    </div>
+    
+
+    
+</div>
+        
+        
+        
+
+        <div class="content">
+            <p>In this med-long blog I will be setting up Windows 7 in 2021. Have you got tired of Windows 10? Follow me and get rid of that non-privacy OS with full of telemetry</p>
+<h2 id="1-downloading-necessary-files">1. Downloading necessary files</h2>
+<p>The first thing we need is to download the Windows 7 ISO file. To do it, I highly recommend <a href="https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool">Microsoft Windows and Office ISO Download Tool</a>. With this tool we will be able to download any Windows Version, including Windows 7, 8.1 and 10.</p>
+<p>Once downloaded, open the program and navigate to <em><strong>Windows 7 (Aug 2018)</strong></em> tab</p>
+<blockquote>
+<p>[!NOTE]
+You can also download the original SP1 Windows 7 file. However I strongly recommend the Aug 2018 build as it contains the latest drivers and updates from Microsoft (like IE11 &amp; .NET 4.7.2).</p>
+</blockquote>
+<p>Select your preferred version (I recommend Professional) and then download it.</p>
+<p><img src="/posts/images/one.png" alt="Downloading ISO" ></p>
+<p>Once downloaded, now let&rsquo;s burn the ISO into a drivers.</p>
+<p>First, get rufus <a href="https://rufus.ie">rufus.ie</a>.</p>
+<p>Open the program and once opened, select the Windows 7 ISO file you downloaded, select GPT scheme, UEFI will be automatically selected in the other panel.</p>
+<blockquote>
+<p>[!NOTE]
+If your machine doesn&rsquo;t support UEFI, just select MBR instead GPT, it will use the BIOS Mode.</p>
+</blockquote>
+<blockquote>
+<p>[!WARNING]
+If you are going to proceed with UEFI mode (like me), you should know that Windows 7 doesn&rsquo;t natively support UEFI, make sure you have the CSM (Compatbility Support Mode) enabled in the BIOS.</p>
+</blockquote>
+<blockquote>
+<p>[!NOTE]
+If your UEFI computer BIOS settings doesn&rsquo;t have the CSM option, you should find for &ldquo;Legacy Boot&rdquo;, enable it. This applies for some HP computers like the <em><strong>Hp Elite 8xxx</strong></em> series. Enabling the legacy boot it will enable CSM when installing as UEFI.</p>
+</blockquote>
+<p><img src="/posts/images/two.png" alt="rufus" ></p>
+<p>Wait until it finishes. Then you can safely close the program.</p>
+<h5 id="optional-but-important-too-looking-for-drivers">Optional but important too, looking for drivers</h5>
+<p>Before I start to install Windows 7, I will find for Windows 7 drivers for my computer. I own the <em><strong>Hp Elite 8300</strong></em> so finding the drivers is very easy.</p>
+<p><img src="/posts/images/three.png" alt="drivers 1" ></p>
+<p>I downloaded just the important drivers, like the Ethernet Driver and the audio drivers.</p>
+<blockquote>
+<p>[!NOTE]
+You can search for Windows 10 drivers if your computer is really new.</p>
+</blockquote>
+<h5 id="important">Important</h5>
+<p>If you have a Nvidia Graphics Card, make sure to download the drivers too. Download it from <a href="https://www.nvidia.com/Download/index.aspx">NVIDIA Driver Downloads</a></p>
+<p>Select the graphics card series and product, and then select the operating system version: Windows 7 64-bit</p>
+<p>Grab the drivers and copy them on a USB</p>
+<h2 id="2-installing-windows-7">2. Installing Windows 7</h2>
+<p>Now, turn off the computer.</p>
+<p>When turned off, turn on the PC and access the Boot Menu. Common keys for accessing the Boot Menu are Esc, F2, F10 or F12, depending on the manufacturer of the computer or motherboard., select boot options and select the USB device.</p>
+<p>Now follow the installation until you get to &ldquo;Type of Installation&rdquo;, select the second option: &ldquo;Custom: Install Windows Only (advanced)&rdquo;.</p>
+<p><img src="/posts/images/inst1.png" alt="inst 1" ></p>
+<p>In the following screen, it will show you all the partitions of the different disks you have in your computer.</p>
+<p><img src="/posts/images/inst2.png" alt="inst 2" ></p>
+<p>Make sure you know where do you want to install Windows 7, if you only have one disk, then just delete all partitions from the disk and continue the installation. Otherwise be careful what you are deleting.</p>
+<p>Wait until the installation finishes. Your computer may reboot while the process</p>
+<h3 id="21-continuing-installation">2.1. Continuing installation</h3>
+<p>Once the files are placed into the drive, you will need to set up some quick things before you can start using Windows 7.</p>
+<p><img src="https://petri.com/wp-content/uploads/sites/3/install_win7_9-533x400.png" alt="inst 3" ></p>
+<p>First, set up your name and desktop name</p>
+<p><img src="https://petri.com/wp-content/uploads/sites/3/install_win7_10-533x400.png" alt="inst 4" ></p>
+<p>Create a password for your account.</p>
+<p>You&rsquo;re almost there, Windows will ask for a key, you can skip this step if you don&rsquo;t have a product key. Then it will ask some final things like clock and Internet (if it found a driver)</p>
+<p><strong>DONE!</strong></p>
+<p><img src="/posts/images/initial.png" alt="Desktop" ></p>
+<h2 id="3-installing-drivers">3. Installing drivers</h2>
+<p>As you can see in my image, there is no internet, there is no Aero Glass theme&hellip; Now get the downloaded drivers you copied into an USB, and install them. Once you download them, you will have Internet access and the Nvidia drivers properly installed in Windows 7</p>
+<h3 id="31-checking-for-updates">3.1. Checking for updates</h3>
+<p>The second things you should do before starting to enjoy Windows 7 is to check for all updates via Windows Update</p>
+<p><img src="/posts/images/upd.png" alt="Updates" ></p>
+<p>Select the updates you want to install and install them. It usually contains some missing drivers for the computers</p>
+<h3 id="32-some-final-drivers">3.2. Some final drivers</h3>
+<p>Windows 7 Compatibility is not as good as Windows 10, so you may have some problems with USB ports or devices, so let&rsquo;s check for missing drivers with <a href="https://www.snappy-driver-installer.org/download/">Snappy Driver Installer Origin</a></p>
+<p>This tool searches for missing drivers and will install automatically for us. Extract the ZIP folder and open SDIO_x64_R729.exe inside the folder</p>
+<p>Once opened accept the license, then it will ask to download some drivers. Select the third option called &ldquo;<strong>Download Indexes Only</strong>&rdquo;</p>
+<p><img src="/posts/images/snappy1.png" alt="Updates" ></p>
+<p>After the indexes are downloaded, the program will show all the drivers ready to update, you can check the drivers you want to update &amp; install, or just select all from the left panel. Click <em><strong>Install</strong></em> and wait.</p>
+<p>Reboot your machine once the drivers got updated</p>
+<h2 id="4-customizing-windows-7">4. Customizing Windows 7</h2>
+<h3 id="41-enabling-aero-glass-theme">4.1. Enabling Aero Glass Theme</h3>
+<p>On the desktop, right-click and select <em><strong>Personalize</strong></em></p>
+<p><img src="/posts/images/aero.png" alt="Aero Glass" ></p>
+<p>Select Windows 7 from the Aero Section</p>
+<h3 id="42-installing-useful-programs-for-a-better-experience">4.2 Installing Useful Programs for a Better Experience</h3>
+<h4 id="check--guide---useful-programs-for-a-better-windows-7-experienceguidesprograms7md">Check <a href="/guides/programs7.md"> Guide - Useful Programs for a Better Windows 7 Experience</a></h4>
+<p>And is just that, you successfully installed Windows 7 in your computer. In my opinion Windows 7 looks better than Windows 10 with the transparency, called Aero Theme. Or maybe is just me who got tired of the clean Windows 10 look.</p>
+<p>I hope you find this tutorial easy to follow, if you have any questions just ping me at <a href="mailto:sergio@bbjprojek.org">sergio@bbjprojek.org</a> and I&rsquo;ll answer any doubts and questions :D</p>
+<p>Happy 2021!</p>
+<hr>
+<h3 id="external-tools-you-may-need">External Tools you may need</h3>
+<ol>
+<li><a href="/more/windows?id=office">Windows &amp; Office Enabler</a></li>
+<li><a href="/more/windows?id=adb-amp-fastboot">ADB &amp; Fastboot</a></li>
+<li><a href="/more/windows?id=more-useful-programs">More Tools</a></li>
+<li><a href="/more/windows?id=winrar">WinRAR</a></li>
+<li><a href="/guides/programs7">Programs for Windows 7</a></li>
+</ol>
+
+        </div>
+        
+        
+        
+
+
+        
+        
+        <div class="py-2">
+    
+    <div class="flex flex-col md:flex-row items-center my-8">
+        <a href="/authors/sergio-fern%C3%A1ndez/" class="w-24 h-24 md:mr-4">
+            
+            
+            <i class="fas fa-user-circle fa-6x"></i>
+            
+        </a>
+        <div class="w-full md:w-auto mt-4 md:mt-0">
+            <a href="/authors/sergio-fern%C3%A1ndez/" class="block font-bold text-lg pb-1 mb-2 border-b">Sergio Fernández</a>
+            <span class="block pb-2"></span>
+            
+        </div>
+    </div>
+    
+</div>
+        
+        
+        
+<div class="flex flex-col md:flex-row md:justify-between -mx-2 mt-4 px-2 pt-4 border-t">
+    <div>
+        
+        <span class="block font-bold">Previous</span>
+        <a href="/posts/programs7/" class="block">Useful Programs for a Better Windows 7 Experience</a>
+        
+    </div>
+    <div class="md:text-right mt-4 md:mt-0">
+        
+        <span class="block font-bold">Next</span>
+        <a href="/posts/windows7style/" class="block">Enable Windows 7 Style on Windows 8.1</a>
+        
+    </div>
+</div>
+
+        
+
+
+
+    </div>
+    
+    <div class="col-span-2">
+        
+        
+        <div class="sticky top-16 z-10 hidden lg:block px-6 py-4  bg-primary-bg ">
+    <span class="text-lg font-semibold">On This Page</span>
+</div>
+<div class="sticky-toc hidden lg:block px-6 pb-6 ">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-downloading-necessary-files">1. Downloading necessary files</a>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#optional-but-important-too-looking-for-drivers">Optional but important too, looking for drivers</a></li>
+                <li><a href="#important">Important</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#2-installing-windows-7">2. Installing Windows 7</a>
+      <ul>
+        <li><a href="#21-continuing-installation">2.1. Continuing installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-installing-drivers">3. Installing drivers</a>
+      <ul>
+        <li><a href="#31-checking-for-updates">3.1. Checking for updates</a></li>
+        <li><a href="#32-some-final-drivers">3.2. Some final drivers</a></li>
+      </ul>
+    </li>
+    <li><a href="#4-customizing-windows-7">4. Customizing Windows 7</a>
+      <ul>
+        <li><a href="#41-enabling-aero-glass-theme">4.1. Enabling Aero Glass Theme</a></li>
+        <li><a href="#42-installing-useful-programs-for-a-better-experience">4.2 Installing Useful Programs for a Better Experience</a>
+          <ul>
+            <li><a href="#check--guide---useful-programs-for-a-better-windows-7-experienceguidesprograms7md">Check <a href="/guides/programs7.md"> Guide - Useful Programs for a Better Windows 7 Experience</a></a></li>
+          </ul>
+        </li>
+        <li><a href="#external-tools-you-may-need">External Tools you may need</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        enableStickyToc();
+    });
+</script>
+        
+    </div>
+    
+
+    
+    
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+
+      </div>
+    </div>
+    
+  </main>
+  <footer class="pl-scrollbar">
+    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2021 <a href="http://www.bbjprojek.org">The BBJProjeK Team</a>
+ &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div></div>
+  </footer>
+</body>
+
+</html>
