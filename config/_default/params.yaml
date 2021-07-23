@@ -1,6 +1,6 @@
 mainSections:
   - posts
-description: Eureka is a elegant and powerful theme for Hugo.
+description: Here you will find new guides and blogs from the BBJProjeK Team
 
 repoEditURL:
 
@@ -12,9 +12,9 @@ titleSeparator:
 colorScheme:
 
 # E.g. Person, Organization, LocalBusiness, Project, EducationalOrganization
-siteType: Person
+siteType: Organization
 icon: images/icon.png
-publisherName: C. Wang
+publisherName: Sergio Fernández
 publisherLogo:
 
 highlight:
@@ -41,10 +41,10 @@ math:
 
 comment:
   # Options: disqus, commento, valine and utterances.
-  handler:
+  handler: disqus
 
-  # disqus:
-  #   shortname:
+  disqus:
+   shortname: Sergio
 
   # utterances:
   #   # Browse https://utteranc.es/ to see the options available.
@@ -73,6 +73,6 @@ diagram:
   #   # You can list the key and value you want as below.
   #   # Because Hugo's config params are case-insensitive, you need to add `-` or `_` before the uppercase letters.
   #   # For example, `diagramPadding` should be written as `diagram-Padding` or other acceptable formats.
-  #   theme: 
+  #   theme:
   #   flowchart:
   #     diagram-padding:
