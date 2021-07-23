@@ -1,6 +1,6 @@
 ---
 title: Installing and Setting Up Windows 7 (2021 Edition)
-description:
+description: Installing and configuring Windows 7 in 2021. It it worth it?
 toc: true
 authors: [Sergio Fernández]
 tags: []

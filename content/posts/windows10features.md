@@ -1,6 +1,6 @@
 ---
 title: Windows 10 Features I miss in Windows 7
-description:
+description: After almost a year with Windows 7 in 2021, I found some features that I would love to have in Windows 7 as default.
 toc: true
 authors: [Sergio Fernández]
 tags: []
@@ -15,7 +15,7 @@ draft: false
 As many of you know, I've been in Widows 7 since Jan 2021, and I'm really enjoying it. However, I found some features that I would love to have in Windows 7 as default.
 
 ## 1. Clipboard History
-<img src="https://wiki.bbjprojek.org/media/tut/history.png" alt="Windows 10 Clipboard History" >
+<img src="/posts/images/tut/history.png" alt="Windows 10 Clipboard History" >
 
 This simple but useful feature built in Windows 10 let you save more than one thing in the clipboard. By pressing Win+V you will see a list of all the things you had copied in the past. It resets on reboot.
 
@@ -37,7 +37,7 @@ Oracle VM VirtualBox does the job in Windows 7. Anyways, Hyper-V has a better pe
 Download [Oracle VM VirtualBox](https://www.virtualbox.org/).
 
 ## 3. Night Light
-<img src="https://wiki.bbjprojek.org/media/tut/night.png" width="200" alt="Windows 10 Night Light Toggle" >
+<img src="/posts/images/tut/night.png" width="200" alt="Windows 10 Night Light Toggle" >
 
 Night light to reduce eye strain and improve sleep, and it's really useful. Windows 10 has this feature built-in. You can enable in the notification center.
 
@@ -67,7 +67,7 @@ Also, in Windows 10, by tapping an .ISO file, it automatically mount it and open
 Download [ImDisk](https://sourceforge.net/projects/imdisk-toolkit/).
 
 ## 5. Windows Subsystem for Linux (WSL)
-<img src="https://wiki.bbjprojek.org/media/tut/wsl1.png" alt="Windows 10 running WSL1" >
+<img src="/posts/images/tut/wsl1.png" alt="Windows 10 running WSL1" >
 
 WSL is a feature that allows to use the Bash of the Linux distribution of your choice, we can have the typical linux directories such as "Home" or "Bin" in Windows and Windows directories in the bash from linux.
 

@@ -1,6 +1,6 @@
 ---
 title: A problem with the Windows Snipping Tool
-description:
+description: This program saves the screenshots as “.PNG” instead “.png”, so let's fix it
 toc: true
 authors: [Sergio Fernández]
 tags: []

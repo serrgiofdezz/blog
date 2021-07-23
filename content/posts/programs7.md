@@ -1,6 +1,6 @@
 ---
 title: Useful Programs for a Better Windows 7 Experience
-description:
+description: Here I bring some useful features from Windows 10 and some extras that will give you the Windows 7 best experience
 toc: true
 authors: [Sergio Fernández]
 tags: []

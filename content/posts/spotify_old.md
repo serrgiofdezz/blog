@@ -1,6 +1,6 @@
 ---
 title: Get Old Spotify UI back (Permanent)
-description:
+description: The new Spotify look is nice, but everything is shifted around. This makes navigating Spotify awful. Fortunately, there is a way to get the old Spotify back.
 toc: true
 authors: [Sergio Fernández]
 tags: []

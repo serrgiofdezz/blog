@@ -1,6 +1,6 @@
 ---
 title: Install Windows 8.1 alongside Windows 10
-description:
+description: Installing Windows 10 and windows 8.1 version of the Microsoft Operating system via UEFI.
 toc: true
 authors: [Sergio Fernández]
 tags: []

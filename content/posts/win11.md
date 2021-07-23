@@ -1,6 +1,6 @@
 ---
 title: Installing Windows 11 on unsupported machines
-description:
+description: In this guide I will be installing Windows 11 on a unsupported PC, I will be using a HP Elite 8300 which has an Intel i5 3rd gen, TPM 1.2...
 toc: true
 authors: [Sergio Fernández]
 tags: []
@@ -65,7 +65,7 @@ Open the program and once opened, select the Windows 11 ISO file, select GPT sch
 > [!NOTE]
 > If your machine doesn't support UEFI, just select MBR instead GPT, it will use the BIOS Mode. **NOTE: I haven't tested Windows 11 in Legacy Mode**
 
-<img src="/media/seven/two.png" alt="rufus" >
+<img src="/posts/images/two.png" alt="rufus" >
 
 Wait until it finishes. Then you can safely close the program.
 
