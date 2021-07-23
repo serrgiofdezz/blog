@@ -1,114 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-<url>
-  <loc>https://blog.bbjprojek.org/</loc>
-  <lastmod>2021-07-23T14:06:14+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/posts/</loc>
-  <lastmod>2021-07-23T14:06:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/posts/spotify_old/</loc>
-  <lastmod>2021-07-23T14:06:14+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/categories/windows/</loc>
-  <lastmod>2021-07-23T14:06:13+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/categories/spotify/</loc>
-  <lastmod>2021-07-23T14:06:13+00:00</lastmod>
-  <priority>0.30</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/posts/win11/</loc>
-  <lastmod>2021-07-23T14:06:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/posts/windows10features/</loc>
-  <lastmod>2021-07-23T14:06:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/posts/snipping-too-problem/</loc>
-  <lastmod>2021-07-23T14:06:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/posts/page/2/</loc>
-  <lastmod>2021-07-23T14:06:14+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/posts/page/3/</loc>
-  <lastmod>2021-07-23T14:06:14+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/posts/page/4/</loc>
-  <lastmod>2021-07-23T14:06:14+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/authors/sergio-fern%C3%A1ndez/</loc>
-  <lastmod>2021-07-23T14:06:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/categories/windows/page/2/</loc>
-  <lastmod>2021-07-23T14:06:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/categories/windows/page/3/</loc>
-  <lastmod>2021-07-23T14:06:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/categories/windows/page/4/</loc>
-  <lastmod>2021-07-23T14:06:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/posts/programs7/</loc>
-  <lastmod>2021-07-23T14:06:14+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/posts/win7/</loc>
-  <lastmod>2021-07-23T14:06:14+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/posts/windows7style/</loc>
-  <lastmod>2021-07-23T14:06:14+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/posts/vistasidebar/</loc>
-  <lastmod>2021-07-23T14:06:14+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/posts/windows10-8/</loc>
-  <lastmod>2021-07-23T14:06:14+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://blog.bbjprojek.org/posts/iso/</loc>
-  <lastmod>2021-07-23T14:06:14+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {{ range .Data.Pages }}{{ if ne .Params.sitemap_exclude true }}
+    <url>
+      <loc>https://blog.bbjprojek.org{{ .Permalink }}</loc>{{ if not .Lastmod.IsZero }}
+      <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ end }}{{ with .Sitemap.ChangeFreq }}
+      <changefreq>{{ . }}</changefreq>{{ end }}{{ if ge .Sitemap.Priority 0.0 }}
+      <priority>{{ .Sitemap.Priority }}</priority>{{ end }}{{ if .IsTranslated }}{{ range .Translations }}
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="{{ .Language.Lang }}"
+                  href="{{ .Permalink }}"
+                  />{{ end }}
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="{{ .Language.Lang }}"
+                  href="{{ .Permalink }}"
+                  />{{ end }}
+    </url>
+  {{ end }}{{ end }}
 </urlset>
