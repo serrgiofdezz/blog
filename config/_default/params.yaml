@@ -44,7 +44,7 @@ comment:
   handler: disqus
 
   disqus:
-   shortname: Sergio
+   shortname: bbjprojek
 
   # utterances:
   #   # Browse https://utteranc.es/ to see the options available.
