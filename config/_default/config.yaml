@@ -6,7 +6,7 @@ theme: eureka
 # Uncomment when installing using Hugo Modules
 # theme: github.com/wangchucheng/hugo-eureka
 
-paginate: 3
+paginate: 5
 icon: "assets/favicon.ico"
 copyright: >
   &copy; 2021 <a href="http://www.bbjprojek.org">The BBJProjeK Team</a>
