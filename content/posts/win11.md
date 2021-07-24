@@ -36,7 +36,7 @@ On the next screen, select the ‘Download and convert to ISO’ option under Do
 
 <img src="/posts/images/tut/win11/guides/build2.png" alt="Downloading ISO" >
 
-## 2. Making the ISO file
+## 2. Building the ISO file
 
 The download package will be downloaded on your PC. It’ll be a ZIP file so extract it in a separate folder (for easier access).
 
