@@ -90,7 +90,7 @@ It might not have the latest Office features, but personally I prefer this 2010 
 
 <img src="/posts/images/office2010.png" alt="Office 2010" >
 
-### [Guide - Installing Office 2010](https://wiki.bbjprojek.org/#/lgeacy/office2010).
+### [Guide - Installing Office 2010](https://wiki.bbjprojek.org/#/legacy/office2010).
 
 ## More programs
 
