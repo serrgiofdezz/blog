@@ -5,7 +5,7 @@ toc: true
 authors: [Sergio Fernández]
 tags: []
 categories: [Windows]
-series: []
+series: [Windows 7 in 2021]
 date: '2021-06-30T10:30:48+01:00'
 lastmod: '2021-06-30T10:30:48+01:00'
 featuredImage: ''
