@@ -6,8 +6,8 @@ authors: [Sergio Fernández]
 tags: []
 categories: [Windows]
 series: []
-date: '2020-12-30T10:30:48+08:00'
-lastmod: '2020-12-30T10:30:48+08:00'
+date: '2020-12-30T10:30:48+01:00'
+lastmod: '2020-12-30T10:30:48+01:00'
 featuredImage: ''
 draft: false
 ---

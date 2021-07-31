@@ -6,8 +6,8 @@ authors: [Gabriel Howard]
 tags: [linux, semigsi]
 categories: [Linux, Android]
 series: []
-date: '2018-10-20T10:30:48+08:00'
-lastmod: '2018-12-31T10:30:48+08:00'
+date: '2018-10-20T10:30:48+01:00'
+lastmod: '2018-12-31T10:30:48+01:00'
 featuredImage: ''
 draft: false
 ---
