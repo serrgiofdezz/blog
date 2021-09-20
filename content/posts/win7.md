@@ -86,11 +86,11 @@ Wait until the installation finishes. Your computer may reboot while the process
 
 Once the files are placed into the disk, you will need to set up some quick things before you can start using Windows 7.
 
-<img src="https://petri.com/wp-content/uploads/sites/3/install_win7_9-533x400.png" alt="inst 3" >
+<img src="https://petri-media.s3.amazonaws.com/install_win7_9-533x400.png" alt="inst 3" >
 
 First, set up your name and desktop name
 
-<img src="https://petri.com/wp-content/uploads/sites/3/install_win7_10-533x400.png" alt="inst 4" >
+<img src="https://petri-media.s3.amazonaws.com/install_win7_10-533x400.png" alt="inst 4" >
 
 Create a password for your account.
 
