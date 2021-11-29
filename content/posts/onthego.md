@@ -52,6 +52,6 @@ Go to the folder **[0] Shortcuts**, copy the shortcuts you want, access the shor
 ### Guide
 See the following video:
 
-<iframe
+<iframe allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="embedded-video-large" style="width: 100%; height: 100%;"
 src="https://youtube.com/embed/S9pC4s2w3sQ?">
 </iframe>
