@@ -17,7 +17,7 @@ During my stay in Windows 7, the needs of some programs have arisen. Little by l
 
 [Download - Google Drive](https://drive.google.com/file/d/1bWD6lbRDi8YFrhltleqEw7MdtKM1N2KN/view?usp=sharing)
 
-<img src="/posts/images/prgrsfold.png" alt="View of shortcut of some programs" >
+<img src="/posts/images/otg/prgrsfold.png" alt="View of shortcut of some programs" >
 
 ## List of programs and its sources:
 * [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)
@@ -52,6 +52,6 @@ Go to the folder **[0] Shortcuts**, copy the shortcuts you want, access the shor
 ### Guide
 See the following video:
 
-<iframe width="1280" height="720"
-src="https://youtu.be/S9pC4s2w3sQ">
+<iframe
+src="https://youtube.com/embed/S9pC4s2w3sQ?">
 </iframe>
