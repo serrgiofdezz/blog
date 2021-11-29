@@ -72,7 +72,7 @@ Free software for eye protection and more. It protects your eyes while you are w
 
 ### [Download EyeSaver](https://www.eye-saver.net/).
 
-## 6. SVG See
+## 7. SVG See
 
 To see a SVG Preview in Windows Explorer.
 
@@ -84,7 +84,7 @@ To see a SVG Preview in Windows Explorer.
 
 Wanna get the old but totally functional Office 2010? Get it now.
 
-It works as good as Office 2019, just more aesthetic as it follows Windows 7 Aero Glass design.
+It works as good as Office 2019, just more aesthetic as it follows the Windows 7 Aero Glass design.
 
 It might not have the latest Office features, but personally I prefer this 2010 version. Better designs, way better perfomance and good looking.
 
